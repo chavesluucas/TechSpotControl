@@ -1,7 +1,8 @@
 ## Tech Control 🧑‍💻
 >Status: Desenvolvido ✅
 
-### O Tech Control é uma aplicação para controle de vagas de condominio, cada vaga tem seu carro especifico.
+### O Tech Control é uma aplicação para controle de vagas de condominio, cada apartamento/carro possui uma vaga especifica. O projeto foi desenvolvido para aprender e aperfeiçoar conceitos importantes.
+### O projeto tem uma classe com várias funcionalidades, destaque para a configuração global de data, validações e inclusão do Swagger para melhorar documentação.
 
 ## Technologies
 
