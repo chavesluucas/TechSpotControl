@@ -22,31 +22,22 @@ public class ParkingSpotModel implements Serializable{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private UUID id;
 	
-	//o campo não pode ser vazio, o valor é unico, não pode repitir e o tamanho do campo é de 10 caracteres
 	@Column(nullable = false, unique = true, length = 10)
 	private String parkingSpotNumber;
-	
 	@Column(nullable = false, unique = true, length = 7)
 	private String licensePlateCar;
-
 	@Column(nullable = false, length = 70)
 	private String brandCar;
-	
 	@Column(nullable = false, length = 70)
 	private String modelCar;
-	
 	@Column(nullable = false, length = 70)
 	private String colorCar;
-	
 	@Column(nullable = false)
 	private LocalDateTime registrationDate;
-	
 	@Column(nullable = false, length = 150)
 	private String responsibleName;
-	
 	@Column(nullable = false, length = 30)
 	private String apartment;
-	
 	@Column(nullable = false, length = 30)
 	private String block;
 	
