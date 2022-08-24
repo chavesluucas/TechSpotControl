@@ -3,6 +3,7 @@
 
 ### O Tech Control é uma aplicação para controle de vagas de condominio, cada apartamento/carro possui uma vaga especifica. O projeto foi desenvolvido para aprender e aperfeiçoar conceitos importantes.
 ### O projeto tem uma classe com várias funcionalidades, destaque para a configuração global de data, validações e inclusão do Swagger para melhorar documentação.
+### A aplicação foi desenvolvida inspirado no video da Michelli Brito da Decoder
 
 ## Technologies
 
